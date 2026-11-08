@@ -1,0 +1,10 @@
+{"input":{"task":"lcs","a":"","b":"abc"},"output":{"length":0,"sequence":""}}
+{"input":{"task":"lcs","a":"axbyc","b":"abc"},"output":{"length":3,"sequence":"abc"}}
+{"input":{"task":"merge","sizes":[]},"output":{"cost":0,"plan":[]}}
+{"input":{"task":"merge","sizes":[1000000000,1000000000,1000000000]},"output":{"cost":5000000000,"plan":[[0,0,1],[0,1,2]]}}
+{"input":{"task":"tree","n":3,"weights":[-4,-1,-5],"edges":[[0,1],[1,2]]},"output":{"weight":0,"selected":[]}}
+{"input":{"task":"naive","text":"aaaa","pattern":"aa"},"output":{"positions":[0,1,2]}}
+{"input":{"task":"kmp","text":"abababa","pattern":"aba"},"output":{"positions":[0,2,4]}}
+{"input":{"task":"rk","text":"bcek","pattern":"bc"},"output":{"positions":[0]}}
+{"input":{"task":"suffix","text":"aaaa"},"output":{"sa":[3,2,1,0],"lcp":[0,1,2,3],"repeated":"aaa"}}
+{"input":{"task":"aho","patterns":["a","aa","a"],"texts":["aaa","","aaa"]},"output":{"counts":[[3,2,3],[0,0,0],[3,2,3]]}}
